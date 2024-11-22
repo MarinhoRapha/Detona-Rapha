@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<!-- Links Css -->
+
+  <link rel="stylesheet" href="style/dist/reset.css">
+  <link rel="stylesheet" href="style/dist/main.css ">
+
+  <title>Detona Rapha</title>
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="menu">
+
+      <div class="menu-time">
+        <h2 style="color: red;">Tempo Restante</h2>
+        <h2 id="time-left">0</h2>
+      </div>
+
+      <div class="menu-score">
+        <h2 style="color: red;">Sua Pontuação</h2>
+        <h2 id="score">0</h2>
+      </div>
+
+      <div class="menu-lives">
+        <img src="./images/player.png"/>
+        <h2>X3</h2>
+      </div>
+    </div>
+    
+    <div class="painel">
+      <div class="painel-row">
+        <div class="quadrado inimigo" id="1"></div>
+        <div class="quadrado" id="2"></div>
+        <div class="quadrado" id="3"></div>
+      </div>
+
+      <div class="painel-row">
+        <div class="quadrado" id="4"></div>
+        <div class="quadrado" id="5"></div>
+        <div class="quadrado" id="6"></div>
+      </div>
+
+      <div class="painel-row">
+        <div class="quadrado" id="7"></div>
+        <div class="quadrado" id="8"></div>
+        <div class="quadrado" id="9"></div>
+      </div>
+    </div>
+  </div>
+
+  <script defer src="js/js.js"></script>
+</body>
+</html>
